@@ -1,0 +1,49 @@
+body{
+		background-image: url("office.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	input{
+		width: 60%;
+		height: 10%;
+		border: 1px solid black;
+	}
+div.relative{
+	position: relative;
+	left: 1000px;
+	top: 100px;
+	width: 600px;
+	height: 300px;
+	border:3px solid black;
+}
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 40px
+}
+.all-details{
+	margin-top:0;
+	padding-top:10px;
+	background-color: lightgray;
+}
+span{
+	background-color: white;
+}
+h1 {text-align: center;}
+h3{text-align-last: center;}
+.button{
+	position: button;
+	height: 30px;
+	width:60px;
+	border: 1px solid black;
+	left: 1000px;
+	top: -1000px;
+}
+div.output{
+	padding-left: 1300px;
+	padding-top: 200px;
+	color: green;
+	font-size: 30px;
+}
